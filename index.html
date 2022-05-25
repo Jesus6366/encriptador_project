@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img class="candado" src="https://cdn.pixabay.com/photo/2016/12/18/12/49/cyber-security-1915626_960_720.png"
+    alt="la imagen de un candado" width="150px" height="150px">
+  <h1 class="titulo">Encriptador de texto.</h1>
+
+  <main class="main">
+    <section class="form box" id="form_box">
+      <form action="">
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button" value=" Encriptar" onclick="btnencriptar()" id="btn-encriptar">
+        <input class="btn" type="button" value=" Desencriptar" onclick="btndesencriptar()" id="btn-desencriptar">
+      </form>
+    </section>
+
+    <section class="msg box" id="msg_box">
+      <h2 id="">Mensaje encriptado:</h2>
+      <input class="text-input-area" type="text" id="msg"></input>
+      <input class="btn" type="button" value=" Copiar" id="btn-copy">
+    </section>
+  </main>
+  <footer>
+
+    Developed by: Jesús José Martha Laborín
+    <a href="https://www.linkedin.com/in/jesus-jose-martha-laborin-a3a55015a"><img src="linkedin-logo.png"
+        height="50px"></a>
+    <a href="https://github.com/Jesus6366"> <img
+        src="kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b4ec817.2080142615351082033227.png"
+        height="50px"></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

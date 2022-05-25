@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(80, 6, 6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.candado {
+  display: block;
+  margin-left: 50px;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+}
+
+.titulo {
+  padding: 10px;
+  width: 20vw;
+  margin: auto;
+  color: #f9faf8;
+  text-align: center;
+
+}
+
+.box {
+  padding: 20px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/18/12/49/cyber-security-1915626_960_720.png);
+  border-radius: 0.5em;
+  width: 50vw;
+  height: auto;
+}
+
+h2 {
+  color: #f9faf8;
+}
+
+.btn {
+  border: 0;
+  color: #f9faf8;
+  font-weight: bold;
+  background-color: brown;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+
+}
+
+.btn:hover {
+  font-size: medium;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:active {
+  background: lightcoral;
+  top: 2px;
+}
+
+.btn:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: medium;
+  width: 60px;
+}
+
+
+.text-input,
+.text-input-area {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 150px;
+  background-image: url(../encriptador_project/Muñeco.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: luminosity;
+  background-position-x: right;
+  font-size: large;
+
+}
+
+footer {
+  color: #f9faf8;
+  margin: 120px 0 0 0;
+  padding: 50px;
+  text-align: end;
+  background-color: rgb(73, 6, 6);
+}
+
+@media screen and (max-width:480px) {
+  .candado {
+    width: 100px;
+    height: 100px;
+  }
+
+  .titulo {
+    width: 50vw;
+  }
+
+  .main {
+    display: block;
+    padding: 0 50px;
+  }
+
+}
